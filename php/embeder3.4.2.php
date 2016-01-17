@@ -21,16 +21,14 @@
 	 *
 	 */
 
+
 	
 	ECHO ' EMBEDER 3 @ 2006-2016 by frantik, RainbowDashDC, Darksynx ', PHP_EOL, PHP_EOL; 
- 
- 		@mkdir('myapp');
-		
 
 	/* Action list */
 	$actions = array(
 		'-e' => array('new_php_exe',      array('name', 'file', 'type', 'icon', 'upx', 'evb'), 'Create Base EXE and PHPscript' , 'myfilename index.php console/windows ico.ico/-noicon -upx:yes/no/best -evb:yes/no'),
-		'-p' => array('pharx',     	  array('name', 'file'),         		 	'phar my script' , 'name.phar index.php/noindex (index is first execute script)'),
+		'-p' => array('pharx',     	  	  array('name', 'file'),         		 	'phar my script' , 'name.phar index.php/noindex (index is first execute script)'),
 		'-i' => array('add_ico',     	  array('name', 'file'),              		 'Change icon with Resource Hacker' , 'ico.ico myfile.exe'),
 		'-n' => array('new_file',         array('name'),                             'Create Base EXE' , 'myfile'),
 		'-m' => array('add_main',         array('name', 'file'),                     'Add main PHP file to exe' , 'myfile index.php'),
@@ -41,11 +39,13 @@
 		'-h' => array('help', 			  array(), 									 'View list options' , ''),
 	);
  
+  		@mkdir('myapp');
+		@mkdir('tmp');
+		
  
-	$mbdr = new embeder();
-	
+	$mbdr = new embeder();	
 	$mbdr->helpvar($actions);
-	
+	$mbdr->load_ext_exe();
 
 	/* Run specified action */
 	if( !isset($argv[1]) ) {
@@ -149,24 +149,24 @@ class embeder {
 
 	/* Action functions */
 	public function add_ico($name, $file) {
-		echo system('.\\ResourceHacker.exe -addoverwrite '. $name . ',' . $name . ',' . $file . ', icon, 101, 1036 ');	
+		echo system('.\\tmp\\ExeIconReplacer.exe '. $name . ' ' . $file );	
 	}
 	
 	/* Action functions */
 	public function evb_exe() {
-		echo system('.\\enigmavbconsole.exe .\\tmp\\compil_gen.evb ');	
+		echo system('.\\tmp\\enigmavbconsole.exe .\\tmp\\compil_gen.evb ');	
 	}
 
 		/* Action functions */
 	public function upx_exe($name, $best='') {
-		echo system('.\\upx.exe ' . $best . ' ' . $name , $out);
+		echo system('.\\tmp\\upx.exe ' . $best . ' ' . $name , $out);
 	}
 	
 	
 	/* Action functions */
 	public function new_php_exe($name, $file, $type,  $icon, $upx, $evb) {
 		
-		@mkdir('tmp');
+		
 		@mkdir('tmp\phar');
 		@mkdir('tmp\evb');
 		@mkdir('tmp\release');
@@ -178,7 +178,9 @@ class embeder {
 		@unlink('tmp\\'.$name . '.exe');
 		
 		$this->new_file($name, 'tmp\\');
-
+		$this->change_type($name, $type , 'tmp\\');
+		
+		
 		echo '>> icon: ' , $icon, PHP_EOL;
 		if($icon != '-noicon') { echo '>> icon',PHP_EOL;
 		
@@ -268,6 +270,13 @@ class embeder {
 		$d->close();	
 	}
 	
+	/* Action functions */
+	public function load_ext_exe() {
+		copy($this->_f( self::EMBEDER_BASE_EXE_PATH . 'upx.exe' ), '.\\tmp\\upx.exe');
+		copy($this->_f( self::EMBEDER_BASE_EXE_PATH . 'ExeIconReplacer.exe' ), '.\\tmp\\ExeIconReplacer.exe');
+		copy($this->_f( self::EMBEDER_BASE_EXE_PATH . 'enigmavbconsole.exe' ), '.\\tmp\\enigmavbconsole.exe');
+	}
+
 	
 	/* Action functions */
 	public function new_file($name, $folder='', $type= 'console') {
