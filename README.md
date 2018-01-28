@@ -12,7 +12,7 @@ This is the same for extensions, shared ones must be loaded via `php-embed.ini`
 ## Compiliation Requirements
 You'll need:
 
- * Microsoft Visual Studio 2012+ (2010 *might* work)
+ * Microsoft Visual Studio 2012+ (2010 *might* work), 2015 (win8.1 / w10)
  * PHP Source code w/ it being compilied
 
 ## How-To Compile
