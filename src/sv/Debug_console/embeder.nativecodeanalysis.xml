@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DEFECTS><DEFECT><SFA><FILEPATH>c:\php-sdk\phpdev\vc11\x86\php-5.6.30-src\zend\</FILEPATH><FILENAME>zend_alloc.h</FILENAME><LINE>114</LINE><COLUMN>5</COLUMN></SFA><DEFECTCODE>6308</DEFECTCODE><DESCRIPTION>'realloc' peut retourner un pointeur Null : l'attribution d'un pointeur Null à 'p' passé comme argument à 'realloc' peut entraîner une fuite du bloc de mémoire d'origine.</DESCRIPTION><FUNCTION>__zend_realloc</FUNCTION><DECORATED>__zend_realloc</DECORATED><FUNCLINE>112</FUNCLINE><PATH/></DEFECT></DEFECTS>

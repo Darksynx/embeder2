@@ -1,0 +1,1023 @@
+﻿LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+  
+  Starting pass 1
+  Processed /DEFAULTLIB:MSVCRT
+  Processed /DEFAULTLIB:OLDNAMES
+  
+  Searching libraries
+      Searching C:\php-sdk\phpdev\vc15\x86\php-7.0.20-src\Release_TS\php7embed.lib:
+        Found _php_embed_init
+          Referenced in embeder.obj
+          Loaded php7embed.lib(php_embed.obj)
+        Found __imp__zend_eval_string
+          Referenced in embeder.obj
+          Loaded php7embed.lib(php7ts.dll)
+        Found __imp__tsrm_get_ls_cache
+          Referenced in embeder.obj
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded php7embed.lib(php7ts.dll)
+        Found __imp__executor_globals_id
+          Referenced in embeder.obj
+          Loaded php7embed.lib(php7ts.dll)
+        Found __imp__core_globals_id
+          Referenced in embeder.obj
+          Loaded php7embed.lib(php7ts.dll)
+        Found _php_module_shutdown_wrapper
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded php7embed.lib(php7ts.dll)
+        Found _zif_dl
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded php7embed.lib(php7ts.dll)
+        Found _zend_error
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded php7embed.lib(php7ts.dll)
+        Found __imp__tsrm_startup
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded php7embed.lib(php7ts.dll)
+        Found __imp__tsrm_shutdown
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded php7embed.lib(php7ts.dll)
+        Found __imp__ts_resource_ex
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded php7embed.lib(php7ts.dll)
+        Found __imp__zend_llist_init
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded php7embed.lib(php7ts.dll)
+        Found __imp__sapi_startup
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded php7embed.lib(php7ts.dll)
+        Found __imp__sapi_shutdown
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded php7embed.lib(php7ts.dll)
+        Found __imp__php_request_startup
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded php7embed.lib(php7ts.dll)
+        Found __imp__php_request_shutdown
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded php7embed.lib(php7ts.dll)
+        Found __imp__php_module_startup
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded php7embed.lib(php7ts.dll)
+        Found __imp__php_module_shutdown
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded php7embed.lib(php7ts.dll)
+        Found __imp__php_handle_aborted_connection
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded php7embed.lib(php7ts.dll)
+        Found __imp__php_register_variable
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded php7embed.lib(php7ts.dll)
+        Found __imp__sapi_globals_id
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded php7embed.lib(php7ts.dll)
+        Found __imp__php_import_environment_variables
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded php7embed.lib(php7ts.dll)
+        Found __IMPORT_DESCRIPTOR_php7ts
+          Referenced in php7embed.lib(php7ts.dll)
+          Referenced in php7embed.lib(php7ts.dll)
+          Referenced in php7embed.lib(php7ts.dll)
+          Referenced in php7embed.lib(php7ts.dll)
+          Referenced in php7embed.lib(php7ts.dll)
+          Referenced in php7embed.lib(php7ts.dll)
+          Referenced in php7embed.lib(php7ts.dll)
+          Referenced in php7embed.lib(php7ts.dll)
+          Referenced in php7embed.lib(php7ts.dll)
+          Referenced in php7embed.lib(php7ts.dll)
+          Referenced in php7embed.lib(php7ts.dll)
+          Referenced in php7embed.lib(php7ts.dll)
+          Referenced in php7embed.lib(php7ts.dll)
+          Referenced in php7embed.lib(php7ts.dll)
+          Referenced in php7embed.lib(php7ts.dll)
+          Referenced in php7embed.lib(php7ts.dll)
+          Referenced in php7embed.lib(php7ts.dll)
+          Referenced in php7embed.lib(php7ts.dll)
+          Referenced in php7embed.lib(php7ts.dll)
+          Referenced in php7embed.lib(php7ts.dll)
+          Referenced in php7embed.lib(php7ts.dll)
+          Loaded php7embed.lib(php7ts.dll)
+        Found __NULL_IMPORT_DESCRIPTOR
+          Referenced in php7embed.lib(php7ts.dll)
+          Loaded php7embed.lib(php7ts.dll)
+        Found php7ts_NULL_THUNK_DATA
+          Referenced in php7embed.lib(php7ts.dll)
+          Loaded php7embed.lib(php7ts.dll)
+      Searching C:\php-sdk\phpdev\vc15\x86\php-7.0.20-src\Release_TS\php7ts.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbccp32.lib:
+        Found ___guard_check_icall_fptr
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded odbccp32.lib(guard_support.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRT.lib:
+        Found @__security_check_cookie@4
+          Referenced in embeder.obj
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded MSVCRT.lib(_secchk_.obj)
+        Found _mainCRTStartup
+          Loaded MSVCRT.lib(exe_main.obj)
+        Found ___security_cookie
+          Referenced in php7embed.lib(php_embed.obj)
+          Referenced in MSVCRT.lib(_secchk_.obj)
+          Loaded MSVCRT.lib(gs_cookie.obj)
+        Found __tls_array
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded MSVCRT.lib(atlssup.obj)
+        Found __tls_index
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded MSVCRT.lib(tlssup.obj)
+        Found ___report_gsfailure
+          Referenced in MSVCRT.lib(_secchk_.obj)
+          Loaded MSVCRT.lib(gs_report.obj)
+        Found _atexit
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(utility.obj)
+        Found ___security_init_cookie
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(gs_support.obj)
+        Found __matherr
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(matherr.obj)
+        Found __get_startup_argv_mode
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded MSVCRT.lib(argv_mode.obj)
+        Found __get_startup_commit_mode
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(commit_mode.obj)
+        Found __get_startup_file_mode
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(file_mode.obj)
+        Found __get_startup_new_mode
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(new_mode.obj)
+        Found __get_startup_thread_locale_mode
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(thread_locale.obj)
+        Found "void __cdecl __scrt_initialize_type_info(void)" (?__scrt_initialize_type_info@@YAXXZ)
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(tncleanup.obj)
+        Found __should_initialize_environment
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(env_mode.obj)
+        Found __initialize_default_precision
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(default_precision.obj)
+        Found __initialize_invalid_parameter_handler
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(invalid_parameter_handler.obj)
+        Found __initialize_denormal_control
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(denormal_control.obj)
+        Found ___scrt_initialize_default_local_stdio_options
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(default_local_stdio_options.obj)
+        Found ___scrt_is_user_matherr_present
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(matherr_detection.obj)
+        Found ___scrt_get_dyn_tls_init_callback
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(dyn_tls_init.obj)
+        Found ___scrt_get_dyn_tls_dtor_callback
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(dyn_tls_dtor.obj)
+        Found ___scrt_is_managed_app
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(utility_desktop.obj)
+        Found __RTC_Initialize
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(_initsect_.obj)
+        Found @_guard_check_icall@4
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Referenced in MSVCRT.lib(utility.obj)
+          Referenced in MSVCRT.lib(_initsect_.obj)
+          Loaded MSVCRT.lib(checkcfg.obj)
+        Found __SEH_epilog4
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded MSVCRT.lib(_sehprolg4_.obj)
+        Found __except_handler4
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Referenced in MSVCRT.lib(utility.obj)
+          Referenced in MSVCRT.lib(_sehprolg4_.obj)
+          Loaded MSVCRT.lib(_chandler4gs_.obj)
+        Found ___xi_a
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(initializers.obj)
+  Processed /DEFAULTLIB:kernel32.lib
+   Processed /DISALLOWLIB:msvcrtd.lib
+   Processed /DISALLOWLIB:libcmt.lib
+   Processed /DISALLOWLIB:libcmtd.lib
+  Processed /DEFAULTLIB:vcruntime.lib
+   Processed /DISALLOWLIB:vcruntimed.lib
+   Processed /DISALLOWLIB:libvcruntime.lib
+   Processed /DISALLOWLIB:libvcruntimed.lib
+  Processed /DEFAULTLIB:ucrt.lib
+   Processed /DISALLOWLIB:ucrtd.lib
+   Processed /DISALLOWLIB:libucrt.lib
+   Processed /DISALLOWLIB:libucrtd.lib
+        Found ___isa_available_init
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded MSVCRT.lib(_cpu_disp_.obj)
+        Found ___scrt_is_ucrt_dll_in_use
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded MSVCRT.lib(ucrt_detection.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+        Found __imp__setmode
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded OLDNAMES.lib(setmode.obi)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\vcruntime.lib:
+        Found ___std_type_info_destroy_list
+          Referenced in MSVCRT.lib(tncleanup.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found _memset
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __except_handler4_common
+          Referenced in MSVCRT.lib(_chandler4gs_.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __IMPORT_DESCRIPTOR_VCRUNTIME140
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found VCRUNTIME140_NULL_THUNK_DATA
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x86\ucrt.lib:
+        Found __imp__free
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        Found __imp__malloc
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        Found __imp____p__fmode
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp____acrt_iob_func
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp__fflush
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp___fileno
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp__fwrite
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __imp____stdio_common_vfprintf
+          Referenced in php7embed.lib(php_embed.obj)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __seh_filter_exe
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __set_app_type
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found ___setusermatherr
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+        Found __configure_narrow_argv
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __initialize_narrow_environment
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __get_initial_narrow_environment
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __initterm
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __initterm_e
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _exit
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __exit
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __set_fmode
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found ___p___argc
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found ___p___argv
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __cexit
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __c_exit
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __register_thread_local_exe_atexit_callback
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __configthreadlocale
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)
+        Found __set_new_mode
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        Found ___p__commode
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __seh_filter_dll
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __initialize_onexit_table
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __register_onexit_function
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __execute_onexit_table
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __crt_atexit
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __crt_at_quick_exit
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __controlfp_s
+          Referenced in MSVCRT.lib(default_precision.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _terminate
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __imp___setmode
+          Referenced in OLDNAMES.lib(setmode.obi)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-math-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-locale-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)
+        Found api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        Found api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+        Found api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)
+      Searching C:\php-sdk\phpdev\vc15\x86\php-7.0.20-src\Release_TS\php7embed.lib:
+      Searching C:\php-sdk\phpdev\vc15\x86\php-7.0.20-src\Release_TS\php7ts.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\kernel32.lib:
+        Found __imp__UnhandledExceptionFilter@4
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__SetUnhandledExceptionFilter@4
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentProcess@0
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__TerminateProcess@8
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found _IsProcessorFeaturePresent@4
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Referenced in MSVCRT.lib(_cpu_disp_.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__QueryPerformanceCounter@4
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentProcessId@0
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetCurrentThreadId@0
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetSystemTimeAsFileTime@4
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__InitializeSListHead@4
+          Referenced in MSVCRT.lib(tncleanup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__IsDebuggerPresent@0
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetStartupInfoW@4
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp__GetModuleHandleW@4
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __IMPORT_DESCRIPTOR_KERNEL32
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found KERNEL32_NULL_THUNK_DATA
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\vcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x86\ucrt.lib:
+      Searching C:\php-sdk\phpdev\vc15\x86\php-7.0.20-src\Release_TS\php7embed.lib:
+      Searching C:\php-sdk\phpdev\vc15\x86\php-7.0.20-src\Release_TS\php7ts.lib:
+  
+  Finished searching libraries
+  
+  Finished pass 1
+  
+  
+  Searching libraries
+      Searching C:\php-sdk\phpdev\vc15\x86\php-7.0.20-src\Release_TS\php7embed.lib:
+      Searching C:\php-sdk\phpdev\vc15\x86\php-7.0.20-src\Release_TS\php7ts.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRT.lib:
+        Found ___scrt_stub_for_acrt_initialize
+          Loaded MSVCRT.lib(ucrt_stubs.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\vcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x86\ucrt.lib:
+  
+  Finished searching libraries
+  Generating code
+    100%  
+  Finished generating code
+  
+  Searching libraries
+      Searching C:\php-sdk\phpdev\vc15\x86\php-7.0.20-src\Release_TS\php7embed.lib:
+      Searching C:\php-sdk\phpdev\vc15\x86\php-7.0.20-src\Release_TS\php7ts.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\vcruntime.lib:
+        Found __setjmp3
+          Referenced in embeder.obj
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x86\ucrt.lib:
+  
+  Finished searching libraries
+  
+  Searching libraries
+      Searching C:\php-sdk\phpdev\vc15\x86\php-7.0.20-src\Release_TS\php7embed.lib:
+      Searching C:\php-sdk\phpdev\vc15\x86\php-7.0.20-src\Release_TS\php7ts.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\MSVCRT.lib:
+        Found __load_config_used
+          Loaded MSVCRT.lib(loadcfg.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\vcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\ucrt\x86\ucrt.lib:
+      Searching C:\php-sdk\phpdev\vc15\x86\php-7.0.20-src\Release_TS\php7embed.lib:
+      Searching C:\php-sdk\phpdev\vc15\x86\php-7.0.20-src\Release_TS\php7ts.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbccp32.lib:
+  
+  Finished searching libraries
+  
+  Invoking rc.exe:
+   /v
+   /x
+   /fo
+   "C:\Users\IEUser\AppData\Local\Temp\lnk{38CF44A4-FEAB-464A-97B3-AE605E8274EA}.tmp"
+   "C:\Users\IEUser\AppData\Local\Temp\lnk{9E617468-420B-4DB6-800C-16235F0E75F8}.tmp"
+  
+  Invoking cvtres.exe:
+   /machine:x86
+   /verbose
+   /out:"C:\Users\IEUser\AppData\Local\Temp\lnk{413721E0-5403-461D-8EE0-855C80C1AC83}.tmp"
+   /readonly
+   "Debug console\embeder.res"
+   "C:\Users\IEUser\AppData\Local\Temp\lnk{38CF44A4-FEAB-464A-97B3-AE605E8274EA}.tmp"
+  Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+  Creating C:\Users\IEUser\AppData\Local\Temp\lnk{38CF44A4-FEAB-464A-97B3-AE605E8274EA}.tmp
+  
+  Using codepage 1252 as default
+  
+  C:\Users\IEUser\AppData\Local\Temp\lnk{9E617468-420B-4DB6-800C-16235F0E75F8}.tmp.
+  Writing 24:1,	lang:0x409,	size 871
+  Microsoft (R) Windows Resource To Object Converter Version 14.00.24225.1
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  adding resource. type:PHP, name:RUN, language:0x040C, flags:0x1030, size:735
+  adding resource. type:ICON, name:1, language:0x040C, flags:0x1030, size:296
+  adding resource. type:ICON, name:2, language:0x040C, flags:0x1030, size:1384
+  adding resource. type:GROUP_ICON, name:101, language:0x040C, flags:0x1030, size:34
+  adding resource. type:MANIFEST, name:1, language:0x0409, flags:0x30, size:871
+  
+  Unused libraries:
+    C:\php-sdk\phpdev\vc15\x86\php-7.0.20-src\Release_TS\php7ts.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\user32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\gdi32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\winspool.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\comdlg32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\advapi32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\shell32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\ole32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\oleaut32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\uuid.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.16299.0\um\x86\odbc32.lib
+  
+  
+  Processing /ORDER options
+      External code objects not listed in the /ORDER file:
+  
+          _imp__php_module_shutdown		; php7embed.lib(php7ts.dll)
+          _imp___controlfp_s		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp___execute_onexit_table		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          SetUnhandledExceptionFilter@4		; kernel32.lib(KERNEL32.dll)
+          _get_startup_argv_mode		; MSVCRT.lib(argv_mode.obj)
+          __dyn_tls_dtor_callback
+          __scrt_stub_for_acrt_uninitialize_critical		; MSVCRT.lib(ucrt_stubs.obj)
+          php_handle_aborted_connection		; php7embed.lib(php7ts.dll)
+          _imp__sapi_startup		; php7embed.lib(php7ts.dll)
+          _imp____stdio_common_vfprintf		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          _configthreadlocale		; ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)
+          _imp__php_handle_aborted_connection		; php7embed.lib(php7ts.dll)
+          php_module_startup		; php7embed.lib(php7ts.dll)
+          _crt_debugger_hook		; MSVCRT.lib(utility_desktop.obj)
+          _imp__GetCurrentProcess@0		; kernel32.lib(KERNEL32.dll)
+          _get_initial_narrow_environment		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp___except_handler4_common		; vcruntime.lib(VCRUNTIME140.dll)
+          ReadPointerNoFence		; odbccp32.lib(guard_support.obj)
+          _initialize_default_precision		; MSVCRT.lib(default_precision.obj)
+          mainCRTStartup		; MSVCRT.lib(exe_main.obj)
+          _imp__SetUnhandledExceptionFilter@4		; kernel32.lib(KERNEL32.dll)
+          _imp__GetCurrentProcessId@0		; kernel32.lib(KERNEL32.dll)
+          __scrt_stub_for_acrt_initialize		; MSVCRT.lib(ucrt_stubs.obj)
+          _imp__ts_resource_ex		; php7embed.lib(php7ts.dll)
+          _imp____p__commode		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          _imp__UnhandledExceptionFilter@4		; kernel32.lib(KERNEL32.dll)
+          __scrt_fastfail		; MSVCRT.lib(utility_desktop.obj)
+          __scrt_is_ucrt_dll_in_use		; MSVCRT.lib(ucrt_detection.obj)
+          ts_resource_ex		; php7embed.lib(php7ts.dll)
+          _imp__GetCurrentThreadId@0		; kernel32.lib(KERNEL32.dll)
+          zend_error		; php7embed.lib(php7ts.dll)
+          NtCurrentTeb		; MSVCRT.lib(utility.obj)
+          _get_startup_commit_mode		; MSVCRT.lib(commit_mode.obj)
+          _imp____std_type_info_destroy_list		; vcruntime.lib(VCRUNTIME140.dll)
+          _imp__malloc		; ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          _imp__zif_dl		; php7embed.lib(php7ts.dll)
+          _except_handler4_common		; vcruntime.lib(VCRUNTIME140.dll)
+          __acrt_iob_func		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          _imp__memset		; vcruntime.lib(VCRUNTIME140.dll)
+          _initterm_e		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp__tsrm_get_ls_cache		; php7embed.lib(php7ts.dll)
+          _imp__GetModuleHandleW@4		; kernel32.lib(KERNEL32.dll)
+          _imp___initterm		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __scrt_initialize_winrt		; MSVCRT.lib(utility_desktop.obj)
+          zend_llist_init		; php7embed.lib(php7ts.dll)
+          _imp___setjmp3		; vcruntime.lib(VCRUNTIME140.dll)
+          _imp__zend_eval_string		; php7embed.lib(php7ts.dll)
+          __scrt_stub_for_acrt_uninitialize		; MSVCRT.lib(ucrt_stubs.obj)
+          _get_startup_thread_locale_mode		; MSVCRT.lib(thread_locale.obj)
+          GetStartupInfoW@4		; kernel32.lib(KERNEL32.dll)
+          fwrite		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          _cexit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          ?get_app_type@__scrt_main_policy@@SA?AW4_crt_app_type@@XZ		; MSVCRT.lib(exe_main.obj)
+          atexit		; MSVCRT.lib(utility.obj)
+          _imp___setmode		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          memset		; vcruntime.lib(VCRUNTIME140.dll)
+          zif_dl		; php7embed.lib(php7ts.dll)
+          GetCurrentThreadId@0		; kernel32.lib(KERNEL32.dll)
+          malloc		; ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          __scrt_get_dyn_tls_dtor_callback		; MSVCRT.lib(dyn_tls_dtor.obj)
+          _RTC_Initialize		; MSVCRT.lib(_initsect_.obj)
+          _imp__GetStartupInfoW@4		; kernel32.lib(KERNEL32.dll)
+          GetCurrentProcess@0		; kernel32.lib(KERNEL32.dll)
+          __report_securityfailure		; MSVCRT.lib(gs_report.obj)
+          _imp__QueryPerformanceCounter@4		; kernel32.lib(KERNEL32.dll)
+          __std_type_info_destroy_list		; vcruntime.lib(VCRUNTIME140.dll)
+          _set_fmode		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA		; MSVCRT.lib(default_local_stdio_options.obj)
+          _imp____p___argc		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp__terminate		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp____p___argv		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          ??_C@_05KJAEOLKJ@embed?$AA@		; php7embed.lib(php_embed.obj)
+          QueryPerformanceCounter@4		; kernel32.lib(KERNEL32.dll)
+          __p__commode		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          __scrt_is_user_matherr_present		; MSVCRT.lib(matherr_detection.obj)
+          _imp__php_request_startup		; php7embed.lib(php7ts.dll)
+          _load_config_used		; MSVCRT.lib(loadcfg.obj)
+          __isa_available_init		; MSVCRT.lib(_cpu_disp_.obj)
+          _imp____p__fmode		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          __scrt_is_managed_app		; MSVCRT.lib(utility_desktop.obj)
+          _imp__php_request_shutdown		; php7embed.lib(php7ts.dll)
+          ??$__crt_fast_decode_pointer@PAP6AXXZ@@YAPAP6AXXZQAP6AXXZ@Z		; MSVCRT.lib(utility.obj)
+          at_quick_exit		; MSVCRT.lib(utility.obj)
+          GetSystemTimeAsFileTime@4		; kernel32.lib(KERNEL32.dll)
+          ??_C@_08EDALKBNJ@PHP_SELF?$AA@		; php7embed.lib(php_embed.obj)
+          __scrt_unhandled_exception_filter@4		; MSVCRT.lib(utility_desktop.obj)
+          __dyn_tls_init_callback
+          __report_rangecheckfailure		; MSVCRT.lib(gs_report.obj)
+          ?_OptionsStorage@?1??__local_stdio_printf_options@@9@9
+          GetModuleHandleW@4		; kernel32.lib(KERNEL32.dll)
+          _imp___fileno		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          _imp___c_exit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp__tsrm_startup		; php7embed.lib(php7ts.dll)
+          __scrt_set_unhandled_exception_filter		; MSVCRT.lib(utility_desktop.obj)
+          _imp___exit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp___set_app_type		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __scrt_uninitialize_crt		; MSVCRT.lib(utility.obj)
+          _imp__php_module_shutdown_wrapper		; php7embed.lib(php7ts.dll)
+          _crt_at_quick_exit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __scrt_dllmain_after_initialize_c		; MSVCRT.lib(utility.obj)
+          _RTC_Terminate		; MSVCRT.lib(_initsect_.obj)
+          _imp__zend_error		; php7embed.lib(php7ts.dll)
+          _imp___initterm_e		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _initialize_invalid_parameter_handler		; MSVCRT.lib(invalid_parameter_handler.obj)
+          ??_C@_0BD@FDNNEPFO@extension_filename?$AA@		; php7embed.lib(php_embed.obj)
+          _setjmp3		; vcruntime.lib(VCRUNTIME140.dll)
+          _set_new_mode		; ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          __stdio_common_vfprintf		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          _matherr		; MSVCRT.lib(matherr.obj)
+          tsrm_startup		; php7embed.lib(php7ts.dll)
+          _vfprintf_l		; php7embed.lib(php_embed.obj)
+          ?__crt_rotate_pointer_value@@YAIIH@Z		; MSVCRT.lib(utility.obj)
+          __scrt_stub_for_acrt_thread_attach		; MSVCRT.lib(ucrt_stubs.obj)
+          php_register_variable		; php7embed.lib(php7ts.dll)
+          _get_startup_new_mode		; MSVCRT.lib(new_mode.obj)
+          GetCurrentProcessId@0		; kernel32.lib(KERNEL32.dll)
+          ??_C@_01JOAMLHOP@?9?$AA@		; php7embed.lib(php_embed.obj)
+          _imp___register_thread_local_exe_atexit_callback		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _register_thread_local_exe_atexit_callback		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp___crt_at_quick_exit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _setmode		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          __scrt_stub_for_acrt_thread_detach		; MSVCRT.lib(ucrt_stubs.obj)
+          _imp__free		; ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          _exit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _set_app_type		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __raise_securityfailure		; MSVCRT.lib(gs_report.obj)
+          _imp__exit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __report_securityfailureEx		; MSVCRT.lib(gs_report.obj)
+          _initialize_denormal_control		; MSVCRT.lib(denormal_control.obj)
+          _initialize_onexit_table		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp___configure_narrow_argv		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _guard_icall_checks_enforced		; odbccp32.lib(guard_support.obj)
+          _imp__core_globals_id		; php7embed.lib(php7ts.dll)
+          _initialize_narrow_environment		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __local_stdio_scanf_options		; MSVCRT.lib(default_local_stdio_options.obj)
+          __security_init_cookie		; MSVCRT.lib(gs_support.obj)
+          ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA		; MSVCRT.lib(default_local_stdio_options.obj)
+          _imp__executor_globals_id		; php7embed.lib(php7ts.dll)
+          php_module_shutdown_wrapper		; php7embed.lib(php7ts.dll)
+          ?__scrt_initialize_type_info@@YAXXZ		; MSVCRT.lib(tncleanup.obj)
+          terminate		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          ?__scrt_uninitialize_type_info@@YAXXZ		; MSVCRT.lib(tncleanup.obj)
+          __scrt_initialize_onexit_tables		; MSVCRT.lib(utility.obj)
+          __scrt_dllmain_exception_filter		; MSVCRT.lib(utility.obj)
+          _controlfp_s		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp__InitializeSListHead@4		; kernel32.lib(KERNEL32.dll)
+          UnhandledExceptionFilter@4		; kernel32.lib(KERNEL32.dll)
+          _imp__sapi_globals_id		; php7embed.lib(php7ts.dll)
+          __guard_check_icall_fptr		; odbccp32.lib(guard_support.obj)
+          __scrt_initialize_default_local_stdio_options		; MSVCRT.lib(default_local_stdio_options.obj)
+          ?configure_argv@__scrt_narrow_argv_policy@@SAHXZ		; MSVCRT.lib(exe_main.obj)
+          fprintf		; php7embed.lib(php_embed.obj)
+          _fileno		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          _onexit		; MSVCRT.lib(utility.obj)
+          php_module_shutdown		; php7embed.lib(php7ts.dll)
+          _seh_filter_exe		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _seh_filter_dll		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp____setusermatherr		; ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+          __scrt_dllmain_uninitialize_c		; MSVCRT.lib(utility.obj)
+          _imp___set_new_mode		; ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          _imp___initialize_onexit_table		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __p___argc		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp__sapi_shutdown		; php7embed.lib(php7ts.dll)
+          __p___argv		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          @__security_check_cookie@4		; MSVCRT.lib(_secchk_.obj)
+          __scrt_get_dyn_tls_init_callback		; MSVCRT.lib(dyn_tls_init.obj)
+          _imp___register_onexit_function		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _register_onexit_function		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp___configthreadlocale		; ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)
+          __scrt_initialize_crt		; MSVCRT.lib(utility.obj)
+          @_guard_check_icall_nop@4		; odbccp32.lib(guard_support.obj)
+          __scrt_get_show_window_mode		; MSVCRT.lib(utility_desktop.obj)
+          IsDebuggerPresent@0		; kernel32.lib(KERNEL32.dll)
+          _imp___seh_filter_dll		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp__IsDebuggerPresent@0		; kernel32.lib(KERNEL32.dll)
+          _imp___cexit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __scrt_dllmain_crt_thread_attach		; MSVCRT.lib(utility.obj)
+          __scrt_dllmain_crt_thread_detach		; MSVCRT.lib(utility.obj)
+          _imp___initialize_narrow_environment		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp__fflush		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          _imp__fwrite		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          sapi_startup		; php7embed.lib(php7ts.dll)
+          _imp___seh_filter_exe		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp___crt_atexit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          free		; ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          @_guard_check_icall@4		; MSVCRT.lib(checkcfg.obj)
+          __report_gsfailure		; MSVCRT.lib(gs_report.obj)
+          exit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _initterm		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp__IsProcessorFeaturePresent@4		; kernel32.lib(KERNEL32.dll)
+          _configure_narrow_argv		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          php_request_startup		; php7embed.lib(php7ts.dll)
+          __p__fmode		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          ReadNoFence		; odbccp32.lib(guard_support.obj)
+          __setusermatherr		; ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+          _imp____acrt_iob_func		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          TerminateProcess@8		; kernel32.lib(KERNEL32.dll)
+          ??$__crt_fast_encode_pointer@PAP6AXXZ@@YAPAP6AXXZQAP6AXXZ@Z		; MSVCRT.lib(utility.obj)
+          IsProcessorFeaturePresent@4		; kernel32.lib(KERNEL32.dll)
+          tsrm_shutdown		; php7embed.lib(php7ts.dll)
+          ??_C@_03OFAPEBGM@?$CFs?6?$AA@		; php7embed.lib(php_embed.obj)
+          InitializeSListHead@4		; kernel32.lib(KERNEL32.dll)
+          _imp___set_fmode		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          __scrt_stub_for_is_c_termination_complete		; MSVCRT.lib(ucrt_stubs.obj)
+          __scrt_release_startup_lock		; MSVCRT.lib(utility.obj)
+          _imp__php_module_startup		; php7embed.lib(php7ts.dll)
+          php_request_shutdown		; php7embed.lib(php7ts.dll)
+          _imp__GetSystemTimeAsFileTime@4		; kernel32.lib(KERNEL32.dll)
+          tsrm_get_ls_cache		; php7embed.lib(php7ts.dll)
+          __scrt_acquire_startup_lock		; MSVCRT.lib(utility.obj)
+          _imp__TerminateProcess@8		; kernel32.lib(KERNEL32.dll)
+          _crt_atexit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          ??_C@_02IGCIGBLK@dl?$AA@		; php7embed.lib(php_embed.obj)
+          _imp__php_register_variable		; php7embed.lib(php7ts.dll)
+          zend_eval_string		; php7embed.lib(php7ts.dll)
+          __scrt_dllmain_before_initialize_c		; MSVCRT.lib(utility.obj)
+          fflush		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          ??_C@_0BF@MDLEPJKO@PHP?5Embedded?5Library?$AA@		; php7embed.lib(php_embed.obj)
+          _c_exit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _except_handler4		; MSVCRT.lib(_chandler4gs_.obj)
+          __local_stdio_printf_options		; php7embed.lib(php_embed.obj)
+          _execute_onexit_table		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _get_startup_file_mode		; MSVCRT.lib(file_mode.obj)
+          _imp__php_import_environment_variables		; php7embed.lib(php7ts.dll)
+          __scrt_dllmain_uninitialize_critical		; MSVCRT.lib(utility.obj)
+          _imp__zend_llist_init		; php7embed.lib(php7ts.dll)
+          __scrt_is_nonwritable_in_current_image		; MSVCRT.lib(utility.obj)
+          sapi_shutdown		; php7embed.lib(php7ts.dll)
+          _should_initialize_environment		; MSVCRT.lib(env_mode.obj)
+          _imp___get_initial_narrow_environment		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _imp__tsrm_shutdown		; php7embed.lib(php7ts.dll)
+  
+  Finished processing /ORDER options
+  Starting pass 2
+       * CIL library *(* CIL module *)
+       embeder.res
+       php7embed.lib(php_embed.obj)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       php7embed.lib(php7ts.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       odbccp32.lib(guard_support.obj)
+       MSVCRT.lib(_cpu_disp_.obj)
+       MSVCRT.lib(_initsect_.obj)
+       MSVCRT.lib(_sehprolg4_.obj)
+       MSVCRT.lib(_chandler4gs_.obj)
+       MSVCRT.lib(_secchk_.obj)
+       MSVCRT.lib(atlssup.obj)
+       MSVCRT.lib(gs_cookie.obj)
+       MSVCRT.lib(gs_report.obj)
+       MSVCRT.lib(gs_support.obj)
+       MSVCRT.lib(checkcfg.obj)
+       MSVCRT.lib(loadcfg.obj)
+       MSVCRT.lib(dyn_tls_dtor.obj)
+       MSVCRT.lib(dyn_tls_init.obj)
+       MSVCRT.lib(matherr_detection.obj)
+       MSVCRT.lib(ucrt_detection.obj)
+       MSVCRT.lib(argv_mode.obj)
+       MSVCRT.lib(commit_mode.obj)
+       MSVCRT.lib(default_local_stdio_options.obj)
+       MSVCRT.lib(denormal_control.obj)
+       MSVCRT.lib(env_mode.obj)
+       MSVCRT.lib(file_mode.obj)
+       MSVCRT.lib(invalid_parameter_handler.obj)
+       MSVCRT.lib(matherr.obj)
+       MSVCRT.lib(new_mode.obj)
+       MSVCRT.lib(thread_locale.obj)
+       MSVCRT.lib(tncleanup.obj)
+       MSVCRT.lib(exe_main.obj)
+       MSVCRT.lib(tlssup.obj)
+       MSVCRT.lib(initializers.obj)
+       MSVCRT.lib(utility.obj)
+       MSVCRT.lib(ucrt_stubs.obj)
+       MSVCRT.lib(utility_desktop.obj)
+       MSVCRT.lib(default_precision.obj)
+       OLDNAMES.lib(setmode.obi)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+  Finished pass 2
+php7embed.lib(php_embed.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'php7embed.lib(php_embed.obj)' or at 'C:\Users\IEUser\Desktop\src\Debug console\vc140.pdb'; linking object as if no debug info
+  embeder.vcxproj -> C:\Users\IEUser\Desktop\src\Debug console\embeder.exe
+  embeder.vcxproj -> C:\Users\IEUser\Desktop\src\Debug console\embeder.pdb (Full PDB)
